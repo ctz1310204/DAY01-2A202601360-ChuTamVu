@@ -16,7 +16,7 @@ Gọi `call_openai` với temperature 0.0, 0.7, 1.2 và 1.8 dùng prompt
 
 **Bạn nhận thấy quy luật gì qua bốn phản hồi? Ở mức nào phản hồi bắt đầu
 kém mạch lạc?** (2–3 câu)
-> "Qua bốn phản hồi, em nhận thấy quy luật là khi temperature càng cao thì câu trả lời càng bay bổng, sử dụng nhiều cấu trúc từ ngữ phong phú và sáng tạo hơn. Ở mức 0.0 - 0.7, câu trả lời rất ổn định, chuẩn xác và mạch lạc. Khi tăng lên 1.2, văn phong bắt đầu giàu hình ảnh hơn. Khi đạt mức 1.8, phản hồi bắt đầu mất mạch lạc, xuất hiện các từ ngữ ngẫu nhiên, lặp lại hoặc sai ngữ pháp."
+> "Qua bốn phản hồi, em thấy quy luật là khi temperature càng cao thì câu trả lời càng bay bổng, sử dụng nhiều cấu trúc từ ngữ phong phú và sáng tạo hơn. Ở mức 0.0 - 0.7, câu trả lời rất ổn định, chuẩn xác và mạch lạc. Khi tăng lên 1.2, văn phong bắt đầu giàu hình ảnh hơn. Khi đạt mức 1.8, phản hồi bắt đầu mất mạch lạc, xuất hiện các từ ngữ ngẫu nhiên, lặp lại hoặc sai ngữ pháp."
 
 ### Câu 1.2 — Chọn temperature cho sản phẩm
 **Bạn sẽ đặt temperature bao nhiêu cho trợ lý soạn thảo hợp đồng pháp lý,
