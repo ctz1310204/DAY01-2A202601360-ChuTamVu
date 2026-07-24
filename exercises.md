@@ -81,13 +81,16 @@ nhiên) giải quyết vấn đề gì còn sót lại?**
 **Viết lại system prompt bạn dùng cho trợ lý của mình. Chỉ ra 2 chỗ trong
 prompt mà nếu xóa đi, hành vi trợ lý sẽ thay đổi rõ rệt — và mô tả thay đổi
 đó:**
-> *System prompt em thiết lập: "Bạn là trợ giảng thân thiện của khóa AI, trả lời ngắn gọn và dùng tiếng Việt."\n1. Nếu bỏ cụm "ngắn gọn": Trợ lý sẽ giải thích quá dông dài, cung cấp nhiều thông tin phụ không cần thiết, làm tốn token và giảm tốc độ phản hồi.\n2. Nếu bỏ cụm "dùng tiếng Việt": Trợ lý có thể phản hồi bằng tiếng Anh nếu câu hỏi của người dùng chứa từ khóa hoặc thuật ngữ chuyên ngành.*
+> *System prompt em thiết lập: 'Bạn là trợ giảng thân thiện của khóa AI, trả lời ngắn gọn và dùng tiếng Việt.'
+1. Nếu bỏ cụm 'ngắn gọn': Trợ lý sẽ giải thích quá dông dài, cung cấp nhiều thông tin phụ không cần thiết, làm tốn token và giảm tốc độ phản hồi.
+2. Nếu bỏ cụm 'dùng tiếng Việt': Trợ lý có thể phản hồi bằng tiếng Anh nếu câu hỏi của người dùng chứa từ khóa hoặc thuật ngữ chuyên ngành.*
 
 ### Câu 4.2 — Hạn chế & cải thiện
 **Trợ lý của bạn giữ history 4 lượt cuối. Hãy mô tả một tình huống hội thoại
 cụ thể mà giới hạn này khiến trợ lý trả lời sai/mất ngữ cảnh, và đề xuất một
 cách khắc phục (ví dụ: tóm tắt các lượt cũ, tăng giới hạn có chọn lọc...):**
-> *Tình huống: Người dùng nêu yêu cầu tổng quan ở lượt 1, sau đó trao đổi sâu qua 4 lượt hỏi đáp chi tiết. Đến lượt 5, khi người dùng nhờ "Tóm tắt lại bài toán ban đầu", trợ lý sẽ không thể trả lời do lượt 1 đã bị cắt khỏi bộ nhớ history (tối đa 4 lượt).\nCách khắc phục: Áp dụng kỹ thuật Tóm tắt hội thoại (Conversation Summarization) bằng cách dùng mô hình nhỏ tự động tóm tắt các lượt thoại cũ và đính kèm vào system prompt, giúp duy trì ngữ cảnh xuyên suốt phiên chat mà vẫn tối ưu chi phí.*
+> *Tình huống: Người dùng nêu yêu cầu tổng quan ở lượt 1, sau đó trao đổi sâu qua 4 lượt hỏi đáp chi tiết. Đến lượt 5, khi người dùng nhờ 'Tóm tắt lại bài toán ban đầu', trợ lý sẽ không thể trả lời do lượt 1 đã bị cắt khỏi bộ nhớ history (tối đa 4 lượt).
+Cách khắc phục: Áp dụng kỹ thuật Tóm tắt hội thoại (Conversation Summarization) bằng cách dùng mô hình nhỏ tự động tóm tắt các lượt thoại cũ và đính kèm vào system prompt, giúp duy trì ngữ cảnh xuyên suốt phiên chat mà vẫn tối ưu chi phí.*
 
 ---
 
